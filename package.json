@@ -1,0 +1,40 @@
+{
+  "name": "request-promise-response-cache",
+  "version": "1.0.0",
+  "description": "Middleware for request-promise with an in-memory cache.",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honzie/request-promise-response-cache.git"
+  },
+  "keywords": [
+    "HTTP",
+    "request",
+    "request-promise",
+    "cache"
+  ],
+  "author": "Hans Sprecher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/honzie/request-promise-response-cache/issues"
+  },
+  "homepage": "https://github.com/honzie/request-promise-response-cache#readme",
+  "dependencies": {
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1"
+  }
+}
