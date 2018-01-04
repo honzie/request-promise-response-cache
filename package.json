@@ -8,7 +8,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "nyc --check-coverage --lines 100  --functions 100 --branches 100 --reporter=html --reporter=text mocha"
+    "lint": "./node_modules/.bin/eslint ./lib/index.js",
+    "test": "nyc --check-coverage --lines 100  --functions 100 --branches 100 --reporter=html --reporter=text mocha && npm run lint"
   },
   "repository": {
     "type": "git",
