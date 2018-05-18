@@ -1,6 +1,6 @@
 {
   "name": "request-promise-response-cache",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Middleware for request-promise with an in-memory cache.",
   "main": "lib/index.js",
   "directories": {
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/honzie/request-promise-response-cache#readme",
   "dependencies": {
-    "request": "^2.83.0",
+    "request": "^2.86.0",
     "request-promise-native": "^1.0.5"
   },
   "devDependencies": {
